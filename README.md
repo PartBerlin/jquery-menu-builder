@@ -45,9 +45,9 @@ This will change the element `#menu` the following way.
 ``` html
 <div id="menu">
     <ul>
-        <li>1 Headline 1</li>
-        <li>2 Custom Headline 1-1</li>
-        <li>3 Headline 1-2</li>
+        <li>1 - Headline 1</li>
+        <li>2 - Custom Headline 1-1</li>
+        <li>3 - Headline 1-2</li>
     </ul>
 </div>
 ```

@@ -24,7 +24,7 @@
             var item = $( this );
             var menuItem = $( "<li></li>" );
             var dataMenuAttr = item.attr( "data-menu" );
-            var menuItemText = counter + " ";
+            var menuItemText = counter + " - ";
             if ( dataMenuAttr ) {
                 menuItemText += dataMenuAttr;
             } else {

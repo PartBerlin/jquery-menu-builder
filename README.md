@@ -40,7 +40,7 @@ The plugin can also be loaded as AMD or Node module.
 </body>
 </html>
 ```
-This will create change the element `menu` the following way.
+This will change the element `#menu` the following way.
 
 ``` html
 <div id="menu">

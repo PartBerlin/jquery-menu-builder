@@ -1,0 +1,23 @@
+{
+  "name": "jquery-menu-builder",
+  "version": "1.0.0",
+  "description": "Creates a menu list from data-menu attribute elements",
+  "main": "src/menu-builder.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "author": "PART GmbH für digitales Handeln <info@part.berlin>",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-qunit": "^1.3.0",
+    "grunt-contrib-uglify": "^2.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-jscs": "^3.0.1",
+    "grunt-jsonlint": "^1.1.0",
+    "jquery": "^3.1.1",
+    "qunitjs": "^2.1.1"
+  }
+}

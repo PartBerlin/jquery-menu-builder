@@ -38,7 +38,7 @@
             };
             if ( typeof customOnclickCallback === "function" ) {
                 onclickCallback = function() {
-                    onclickCallback( this, item.get( 0 ) );
+                    customOnclickCallback( this, item.get( 0 ) );
                 };
             }
             menuItem.click( onclickCallback );

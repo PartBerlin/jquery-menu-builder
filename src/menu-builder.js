@@ -15,7 +15,10 @@
     }
 }( function( $ ) {
     "use strict";
-    $.fn.menuBuilder = function( customOnclickCallback ) {
+    $.fn.menuBuilder = function( customOnclickCallback, showNumbers ) {
+        if ( showNumbers === undefined ) {
+            showNumbers = true;
+        }
         var menuElement = $( this );
         var list = $( "<ul></ul>" );
         var menuReferences = $( "*[data-menu]" );
@@ -24,7 +27,10 @@
             var item = $( this );
             var menuItem = $( "<li></li>" );
             var dataMenuAttr = item.attr( "data-menu" );
-            var menuItemText = counter + " - ";
+            var menuItemText = "";
+            if ( showNumbers ) {
+                menuItemText = counter + " - ";
+            }
             if ( dataMenuAttr ) {
                 menuItemText += dataMenuAttr;
             } else {
